@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rental Boat</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="photo.css">
+    <style>
+         .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1{
+            color: white;
+        }
+        .menu ul li a {
+             text-decoration: none;
+             color: white;
+            padding: 5px 12px;
+             letter-spacing: 2px;
+            font-size: 18px
+        }
+        .signup a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+			<h1>TRAVEL</h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="mywebsite.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="photo.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="signup">
+			<a href="signup.html">Sign Up</a>
+		</div>
+	</div>
+	<div class="body">
+		<div class="heading">
+			<h1> <b>Island Hopping With Us!</b></h1>
+			<br>
+			<p> </p>
+			<br>Our exclusive rental boat service provides safe and adventurous exploration of Sicogon and the Gigantes Islands, ensuring the safety of our passengers.
+			<br>
+			<a href="learn.html">Learn More</a>
+		</div>
+		<div class="tours">
+			<div class="places">
+				<h2>Sicogon Island</h2>
+				<img src="sicog.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="BOOKSICOGON.HTML">INFO</a>
+			</div>
+			
+			<div class="places">
+				<h2>Gigantes Island</h2> 
+				<img src="gigantes.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>				<br>
+				<a href="BOOKGIGANTES.HTML">INFO</a>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>
